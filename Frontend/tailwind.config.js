@@ -19,7 +19,7 @@ export default {
       },
       fontFamily: {
         poppins: "poppins",
-        inter: "inter",
+        inter: "Inter",
         spaceGro: "Space Grotesk",
       },
     },
