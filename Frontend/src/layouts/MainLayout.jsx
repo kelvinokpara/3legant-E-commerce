@@ -9,15 +9,15 @@ const MainLayout = ({ children }) => {
 
   return (
     <div>
-      <div className="w-full absolute top-0">
+      <div className="w-full">
         <Navbar mobileNav={setSidebar} />
       </div>
       {/* sidebar */}
       <div className="lg:hidden">
         {sidebar && <Sidebar compHandler={setSidebar} />}
       </div>
-      {children}
-      <div className="w-full absolute bottom-0">
+      <div>{children}</div>
+      <div className="w-full">
         <Footer />
       </div>
     </div>

@@ -16,7 +16,7 @@ const Router = () => {
           </MainLayout>
         }
       />
-      <Route path={"/auth"} element={<AuthPage />} />
+      <Route path={"/accounts/:id"} element={<AuthPage />} />
     </Routes>
   );
 };
